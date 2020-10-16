@@ -1,0 +1,83 @@
+.menu {
+    position: fixed;
+    height: 100%;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 260px;
+    background-color: #ffffff;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);;
+
+}
+
+.logo {
+    /* background-color: red; */
+    display: block;
+    padding: 15px 0;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*div menu*/
+.menu_list {
+    height: 100%;
+} 
+
+/*ul menu*/
+.menu_list_item {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    display: block;
+}
+
+/*thẻ li menu*/
+.menu_item {
+    display: flex;
+}
+
+/*thẻ a menu*/
+.menu_item_link {
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: #3c4858;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px 15px;
+    margin: 6px 15px;
+    transition: all .15s ease-in;
+}
+
+/*hover thẻ a*/
+.menu_item_link:hover {
+    background-color: rgb(241, 240, 245);
+}
+
+/*css icon trong ul menu*/
+.menu_list_item i {
+    font-size: 30px;
+    float: left;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+    color: #a9afbb;
+}
+
+/*css nội dung menu*/
+.menu_list_item p {
+    margin: 0;
+    color: #606061;
+    font-size: 18px;
+    position: relative;
+    display: block;
+    line-height: 30px;
+    height: auto;
+    white-space: nowrap;
+}
